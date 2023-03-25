@@ -1,3 +1,7 @@
-module github.com/cbart/sqver
+module github.com/cbart/sqlver
 
 go 1.19
+
+require (
+	github.com/lib/pq v1.10.7 // indirect
+)
